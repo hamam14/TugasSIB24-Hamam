@@ -2,7 +2,7 @@ document.write('<h1>Javascript Dasar</h1>')
 document.write('<h2>Variabel</h2>')
 
 // Variabel Javascript
-var nama = "Taufiqu Reza Yoga Pratama"
+var nama = "Hamam Mubarok Al Hadad"
 let kampus = "Universitas Trunojoyo Madura"
 const prodi = "Teknik Informatika"
 
@@ -14,8 +14,8 @@ document.write(prodi)
 
 // Tipe Data Number
 document.write('<h2>Tipe Data Number</h2>')
-let angka = 10
-let desimal = 2.5
+let angka = 14
+let desimal = 14.5
 
 document.write(angka)
 document.write('<br>')
@@ -27,7 +27,7 @@ document.write('tipe data ',desimal,' : ',typeof(desimal))
 
 // Tipe Data String
 document.write('<h2>Tipe Data String</h2>')
-let text = 'javascript dasar'
+let text = 'belajar javascript'
 
 document.write(text)
 document.write('<br>')
@@ -47,21 +47,21 @@ document.write(perbandingan2)
 document.write('<h2>Tipe Data Object</h2>')
 
 let mahasiswa = {
-    nama: 'joko',
-    nim : 210546980145,
-    umur : 19,
-    alamat : 'bojonegoro'
+    nama: 'warda',
+    nim : 210411100005,
+    umur : 20,
+    alamat : 'gresik'
 }
 
-document.write(`nama saya ${mahasiswa.nama} nim saya ${mahasiswa.nim} umur saya ${mahasiswa.umur} dan alamat saya di ${mahasiswa.alamat}`)
+document.write(`nama saya ${mahasiswa.nama} nim saya ${mahasiswa.nim} umur saya ${mahasiswa.umur} dan saya berasal dari ${mahasiswa.alamat}`)
 document.write('<br>')
 document.write(mahasiswa)
 
 // Operator Aritmatika
 document.write('<h2>Operator Aritmatika</h2>')
 
-let a = 10
-let b = 5
+let a = 100
+let b = 25
 
 document.write('hasil penjumlahan dari ',a,'+',b,' = ',a+b)
 document.write('<br>')
@@ -100,16 +100,16 @@ document.write(a == b ? 'sama' : 'berbeda')
 // Percabangan If & Else
 // document.write('<h2>Percabangan if & else</h2>')
 
-let pesan = confirm('apakah kamu sudah pulang kerja?')
+let pesan = confirm('apakah kamu ingin membuka web ini?')
 if (pesan) {
-    alert('sudah')
+    alert('iya?')
 }else{
-    alert('belum')
+    alert('tidak?')
 }
 
 // perulangan 
 document.write('<h2>Perulangan</h2>')
 for (let i = 1; i < 7; i++){
-    document.write('halo')
+    document.write('hehe')
     document.write('<br>')
 }
